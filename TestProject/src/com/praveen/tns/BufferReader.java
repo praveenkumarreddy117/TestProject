@@ -12,6 +12,10 @@ public class BufferReader {
 		
 		BufferedReader bf = new BufferedReader(isr);
 		
+		System.out.println("ENTER THE NUMBER");
+		
+		int eno = Integer.parseInt(bf.readLine());
+		
 		System.out.println("ENTER THE NAME");
 		
 		String name = bf.readLine();
@@ -28,7 +32,7 @@ public class BufferReader {
 		
 		double salary = Double.parseDouble(bf.readLine());
 		
-		System.out.println("WELCOME- "+name+"; EMPLOYEE AGE- "+age+"; EMPLOYEE GENDER- "+gender+"; EMPLOYEE SALARY- "+salary+".");
+		System.out.println("EMPLOYEE NUMBER- "+eno+"; EMPLOYEE NAME- "+name+"; EMPLOYEE AGE- "+age+"; EMPLOYEE GENDER- "+gender+"; EMPLOYEE SALARY- "+salary+".");
 		
 		
 		
