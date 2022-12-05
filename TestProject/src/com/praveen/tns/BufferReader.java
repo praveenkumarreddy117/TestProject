@@ -16,7 +16,15 @@ public class BufferReader {
 		
 		String name = bf.readLine();
 		
-		System.out.println("WELCOME: "+name);
+		System.out.println("ENTER THE NUMBER");
+		
+		int age = Integer.parseInt(bf.readLine());
+		
+		System.out.println("ENTER THE SALARY");
+		
+		double salary = Double.parseDouble(bf.readLine());
+		
+		System.out.println("WELCOME- "+name+"; EMPLOYEE AGE- "+age+"; EMPLOYEE SALARY- "+salary+".");
 		
 		
 		
